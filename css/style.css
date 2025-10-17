@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url('readyimg/The\ paper.jpg');
+    font-size: 40px;
+    text-align: center;
+    align-items: center;
+}
+.container{
+    width: 400px;
+    height: auto;
+    flex-flow: column;
+    text-align: center;
+    align-items: center;
+    padding: 40px;
+}
+button{
+    height: auto;
+    width: 100px;
+}
+@media (max-width: 166.25mm) and (max-Width: 254.69mm) {
+    h1{
+        color: red;
+    }
+}
