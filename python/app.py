@@ -11,3 +11,5 @@ CORS(app)
 #criar pasta se nao existirem
 if not os.path.exists('img'):
     os.makedirs('img')
+if not os.path.exists('audios'):
+    os.makedirs('audios')
