@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O Futuro</title>
+    <link rel="stylesheet" href="/static/css/usuarioimg.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+DE+SAS:wght@100..400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Esse pode ser o Futuro</h1>
+        <img src="https://placehold.co/350x350.png" alt="img" id="img" class="imagem">
+        <div class="loading" id="loading"></div>
+        <p id="question" class="question">Gostaria que nos eviassemos essa imagem pro seu email?</p>
+        <input type="email" name="Coloque o email" id="email" class="email">
+        <div class="buttons" id="buttons">
+            <button class="button1" id="button1" onclick="start()">Sim</button>
+            <button class="button2" id="button2" onclick="finish()">Não</button>
+        </div>
+        <div class="enviar" id="enviar">
+            <button onclick="mandar()" id="mandarid">Enviar</button>
+        </div>
+    </div>
+    <script src="/static/js/usuarioimg.js"></script>
+</body>
+</html>
