@@ -9,28 +9,38 @@ body{
     align-items: center;
     min-height: 100vh;
     background-image: url("readyimg/The paper.jpg");
-    font-size: 40px;
+    font-size: 28px;
+    line-height: 1.6;
     text-align: center;
+    font-family: 'Playwrite DE SAS';
 }
 .container{
-    width: 400px;
+    max-width: 400px;
+    width: 90%;
     height: auto;
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
-    padding: 40px;
+    padding: 20px;
 }
 button{
     height: 30px;
-    width: 300px;
+    width: 100%;
+    max-width: 300px;
     border-radius: 20px;
 }
 img{
+    max-width: 100%;
+    height: auto;
     border-radius: 20px;
 }
-@media (max-width: 166.25mm) and (max-width: 254.69mm) {
+
+@media (max-width: 480px) {
     h1{
-        color: red;
+        font-size: 2.5em;
+    }
+    body {
+        font-size: 16px;
     }
 }

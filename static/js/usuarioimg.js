@@ -6,7 +6,7 @@ loading = document.getElementById('loading');
 question = document.getElementById('question');
 img = document.getElementById('img');
 email = document.getElementById('email');
-mandarid = document.querySelector('enviar');
+enviarDiv = document.getElementById('enviar');
 setTimeout(function(){
     console.log('setTimeout Rodou...')
     buttons.style.display = 'block'
@@ -19,14 +19,13 @@ function start(){
     email.style.display = 'block'
     document.getElementById('question').innerHTML = 'Adicione seu email'
     buttons.style.display = 'none'
-    mandarid.style.display = 'block'
+    enviarDiv.style.display = 'block'
 }
 
 function finish(){
     button2.addEventListener('click', () => {
         window.location.href = 'fim.html';
-    });
-    
+    });  
 }
 
 function mandar(){

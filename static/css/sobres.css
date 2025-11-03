@@ -9,8 +9,9 @@ body{
     align-items: center;
     min-height: 100vh;
     background-image: url("readyimg/The paper.jpg");
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
+    font-family: 'Playwrite DE SAS';
 }
 .container{
     width:800px;
@@ -35,7 +36,7 @@ img{
     vertical-align: middle;
 }
 h1{
-    font-size: 70px;
+    font-size:60px;
 }
 .perfil {
     display: inline-flex;
@@ -64,9 +65,4 @@ h1{
     background-color: rgb(247, 247, 243);
     border-radius: 10px;
     text-align: center;
-}
-@media (max-width: 166.25mm) and (max-width: 254.69mm) {
-    h1{
-        color: blueviolet;
-    }
 }

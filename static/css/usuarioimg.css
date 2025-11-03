@@ -9,8 +9,9 @@ body{
     align-items: center;
     min-height: 100vh;
     background-image: url("readyimg/The paper.jpg");
-    font-size: 40px;
+    font-size: 25px;
     text-align: center;
+    font-family: 'Playwrite DE SAS';
 }
 .container{
     width:800px;
@@ -28,7 +29,7 @@ button{
 }
 img{
     height: auto;
-    width: 500px;
+    width: 400px;
     border-radius: 20px;
 }
 .container > h1,
@@ -37,7 +38,7 @@ img{
     vertical-align: middle;
 }
 h1{
-    font-size: 70px;
+    font-size: 40px;
 }
 .perfil {
     display: inline-flex;
@@ -67,11 +68,7 @@ h1{
     border-radius: 10px;
     text-align: center;
 }
-@media (max-width: 166.25mm) and (max-width: 254.69mm) {
-    h1{
-        color: rgb(0, 0, 0);
-    }
-}
+
 .loading {
     border: 16px solid #f3f3f3;
     border-top: 16px solid #3498db;
