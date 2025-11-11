@@ -49,8 +49,8 @@ img{
 }
 
 .loading {
-    border: 16px solid #f3f3f3;
-    border-top: 16px solid #3498db;
+    border: 16px solid #c7c6c6;
+    border-top: 16px solid #2d87c3;
     border-radius: 50%;
     width: 140px;
     height: 140px;
@@ -71,8 +71,9 @@ img{
     display: flex;
     align-items: center;
     border-radius: 30px;
-    background-color: #d5c8c8;
-    border: 2px solid black;
+    background-color: rgba(238, 234, 234, 0.75); 
+    padding: 15px;
+    line-height: 1.2;
 }
 
 @media (max-width: 768px) {

@@ -7,6 +7,7 @@ question = document.getElementById('question');
 img = document.getElementById('img');
 email = document.getElementById('email');
 enviarDiv = document.getElementById('enviar');
+mandarid =  document.getElementById('mandarid');
 
 setTimeout(function(){
     console.log('setTimeout Rodou...')
@@ -30,6 +31,7 @@ function finish(){
 }
 
 function mandar() {
+    mandarid.disabled = true
     enviarDiv.addEventListener('click', async () => {
         
         const emailParaEnviar = document.getElementById('email').value;

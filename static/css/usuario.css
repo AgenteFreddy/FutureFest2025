@@ -54,5 +54,7 @@ img{
     display: flex;
     align-items: center;
     border-radius: 30px;
-    background-color: #d5c8c8;
+    background-color: rgba(255, 255, 255, 0.75); 
+    padding: 15px;
+    line-height: 1.2;
 }
