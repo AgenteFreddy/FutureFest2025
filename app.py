@@ -119,7 +119,6 @@ def enviar_email(user_email):
     Obrigado por ter vindo ao nosso projeto :)
     Aqui esta a sua imagem:
     """
-    
     msg = EmailMessage()
     msg['Subject'] = about
     msg['From'] = inemail 
